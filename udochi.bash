@@ -16,6 +16,8 @@ done
 mail -s "Service $1 restart failed" mail@domain.com <<< "Timeout $2 for the $1 service restart"
 exit
 
+# This is to explain blah
+
 #The script should be used with the parameters: the first one is server name (e.g. mysql or nginx); the second one is time of script execution (in seconds).
 
 #To restart mysql using the script with 1 hour timeout it’s necessary to execute:
